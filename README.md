@@ -1,6 +1,7 @@
 # triton-client-yolo
 ## OBB demo
 0.进入triton docker
+
     0.1 docker run --gpus all --net=host --pid=host --ipc=host --privileged -it -v /your/local/dir:/home --name name nvcr.io/nvidia/tritonserver:24.08-py3
     
 1.pip install -r requirements.txt
